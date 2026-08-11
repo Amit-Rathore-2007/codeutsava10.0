@@ -1,0 +1,104 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    scrollbar-width: none;
+}
+
+.dis-none{
+    display: none !important;
+}
+
+.intro-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/assets/bg5.gif") bottom / cover no-repeat;
+}
+
+.intro-container .intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-container .intro-content .intro-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    aspect-ratio: 4.94;
+    background-color: white;
+}
+
+.intro-container .intro-content .intro-title img{
+    width: 95%;
+}
+
+.intro-container .intro-content .intro-button{
+    position: relative;
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+}
+
+.intro-container .intro-content .intro-button #button{
+    position: relative;
+    height: 32px;
+    width: 100%;
+    transform: skew(-20deg);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.intro-container .intro-content .intro-button #button .plane{
+    width: 350px;
+    height: 32px;
+    position: absolute;
+    background-color: white;
+    transition: 0.15s ease;
+}
+
+.intro-container .intro-content .intro-button:hover #button{
+    box-shadow:
+        0 2px 8px rgba(255, 255, 255, 0.8),
+        0 0 13px rgba(255, 255, 255, 0.7),
+        0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.intro-container .intro-content .intro-button #button .left-plane{
+    left: 0;
+    transform: translate(-100%);
+}
+
+.intro-container .intro-content .intro-button #button .right-plane{
+    right: 0;
+    transform: translate(100%);
+}
+
+.intro-container .intro-content .intro-button:hover #button .plane{
+    transform: translate(0);
+}
+
+.intro-container .intro-content .intro-button:hover #button-title{
+    color: black;
+}
+
+.intro-container .intro-content .intro-button #button-title{
+    cursor: default;
+    height: 26px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    bottom: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.3;
+    color: white;
+    font-family: pixelled, sans-serif;
+}
+
