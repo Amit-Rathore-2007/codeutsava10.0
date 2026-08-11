@@ -552,7 +552,7 @@ main #about-us .content .other{
 }
 
 main #about-us .content .other .other-parts{
-    margin: 0 30px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -588,7 +588,7 @@ main #about-us .content .details{
 
 main #about-us .content .details .details-part{
     padding: 28px;
-    min-width: 380px;
+    min-width: 350px;
     max-width: 600px;
     font-size: 20px;
     font-weight: 600;
