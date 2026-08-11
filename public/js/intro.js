@@ -1,11 +1,15 @@
 let enterHero = document.querySelector(".intro-container .intro-content .intro-button");
 let heroContainer = document.querySelector(".hero-container");
 let introContainer = document.querySelector(".intro-container");
+let introToHero = document.querySelector(".intro-to-hero");
 
 enterHero.addEventListener("click",e => {
-    if (!introContainer.classList.contains("dis-none"))
-        introContainer.classList.add("dis-none");
+    introToHero.style.animationPlayState = "running";
+    setTimeout(() => {
+        if (!introContainer.classList.contains("dis-none"))
+            introContainer.classList.add("dis-none");
         heroContainer.classList.remove("dis-none");
+    },3700)
 })
 
 const runner = document.querySelector(".naruto-runner");

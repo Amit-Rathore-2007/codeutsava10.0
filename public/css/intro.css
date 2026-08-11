@@ -10,6 +10,26 @@ html,body{
     display: none !important;
 }
 
+.intro-to-hero{
+    width: 0;
+    position: absolute;
+    animation: goToHero 4s;
+    animation-play-state: paused;
+}
+
+@keyframes goToHero {
+    0%{
+        width: 1px;
+    }
+    60%{
+        width: 100%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
 .intro-container{
     height: 100%;
     width: 100%;
