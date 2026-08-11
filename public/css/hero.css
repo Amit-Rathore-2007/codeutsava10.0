@@ -607,6 +607,14 @@ main #about-us .content .details .details-part{
     main #about-us .content .details{
         row-gap: 0;
     }
+
+    main #about-us .content .details .details-part{
+        font-size: 18px !important;
+    }
+
+    main #about-us .content .details .details-part b{
+        font-size: 20px !important;
+    }
 }
 
 @media (max-width: 520px) {
@@ -621,6 +629,14 @@ main #about-us .content .details .details-part{
 
     main #about-us .content .details .details-part{
         padding: 10px;
+    }
+
+    main #about-us .content .details .details-part{
+        font-size: 16px !important;
+    }
+
+    main #about-us .content .details .details-part b{
+        font-size: 17px !important;
     }
 }
 
