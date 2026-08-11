@@ -1,6 +1,6 @@
-Full Name : Amit Kumar Rathore
-Branch : CSE
-Mobile Number : 9131453352
-Email : rathoreamit2007@gmail.com
-Live Project Link : 
+Full Name : Amit Kumar Rathore<br>
+Branch : CSE<br>
+Mobile Number : 9131453352<br>
+Email : rathoreamit2007@gmail.com<br>
+Live Project Link : <br>
 Working Demo Video : 
