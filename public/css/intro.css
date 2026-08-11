@@ -21,6 +21,7 @@ html,body{
 .intro-container .intro-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -102,3 +103,44 @@ html,body{
     font-family: pixelled, sans-serif;
 }
 
+@media (max-width: 700px) {
+    .intro-container .intro-title{
+        width: 450px !important;
+    }
+
+    .intro-container .intro-button{
+        width: 450px !important;
+    }
+
+    .intro-container .intro-button #button-title{
+        width: 450px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .intro-container .intro-title{
+        width: 350px !important;
+    }
+
+    .intro-container .intro-button{
+        width: 350px !important;
+    }
+
+    .intro-container .intro-button #button-title{
+        width: 350px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .intro-container .intro-title{
+        width: 280px !important;
+    }
+
+    .intro-container .intro-button{
+        width: 280px !important;
+    }
+
+    .intro-container .intro-button #button-title{
+        width: 280px !important;
+    }
+}

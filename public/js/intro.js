@@ -33,8 +33,8 @@ function updateTimeline() {
 
 
         if (runnerCenter >= dotCenter) {
-
-            item.classList.add("active");
+            
+            item.classList.add("timeline-item-active");
 
         }
 
@@ -43,9 +43,11 @@ function updateTimeline() {
     requestAnimationFrame(updateTimeline);
 }
 
-updateTimeline();
-
 const wallTimeline = document.querySelector(".timeline-wall")
+
+runner.addEventListener("animationstart", e => {
+    updateTimeline();
+});
 
 runner.addEventListener("animationend", e => {
     e.target.src = "/assets/part1-1.gif";
@@ -69,7 +71,7 @@ const observer = new IntersectionObserver(
         });
     },
     {
-        threshold: 0.5
+        threshold: 0.1
     }
 );
 

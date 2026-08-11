@@ -209,13 +209,12 @@ body{
     opacity: 0;
     transform: translateY(-30px);
     transition:
-        opacity .5s ease,
-        transform .5s ease;
+        opacity 0.5s ease,
+        transform 0.5s ease;
 }
 
-.timeline-item.active {
+.timeline-item.timeline-item-active {
     opacity: 1;
-
     transform: translateY(0);
 }
 
@@ -437,7 +436,7 @@ main #home .home-container .title .title-part1 img{
 }
 
 main #home .home-container .desc{
-    margin-top: 30px;
+    margin-top: 50px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -451,7 +450,7 @@ main #home .home-container .desc .desc-part1{
 }
 
 main #home .home-container .desc .desc-part2{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 16px;
     font-weight: 500;
     word-spacing: 1.5px;
