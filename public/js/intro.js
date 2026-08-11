@@ -4,6 +4,7 @@ let introContainer = document.querySelector(".intro-container");
 let introToHero = document.querySelector(".intro-to-hero");
 
 enterHero.addEventListener("click",e => {
+    introToHero.src = "/assets/intro-to-hero.gif";
     introToHero.style.animationPlayState = "running";
     setTimeout(() => {
         if (!introContainer.classList.contains("dis-none"))

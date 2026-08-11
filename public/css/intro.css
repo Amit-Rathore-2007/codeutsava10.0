@@ -11,7 +11,6 @@ html,body{
 }
 
 .intro-to-hero{
-    width: 0;
     position: absolute;
     animation: goToHero 4s;
     animation-play-state: paused;
